@@ -11,7 +11,7 @@ export default function Footer() {
           </h1>
           <p className="text-[#8897AB] pt-2">Join FLSD Now!</p>
         </div>
-        <Image src="/join.png" alt="earn" width={401} height={252} />
+        <img src="/join.png" alt="earn" width={401} height={252} />
       </div>
       <div className="bg-[#141C33] h-10 w-full -mt-10 relative z-10">
         <div className="w-10/12 sm:w-7/12 m-auto flex justify-between items-center h-10">
