@@ -1,7 +1,4 @@
-import { Inter } from 'next/font/google'
-import Image from "next/image";
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -90,7 +87,7 @@ export default function Home() {
             Filecoin network&apos;s block rewards is allocated as your income.
           </p>
         </div>
-        <Image src="/earn.png" alt="earn" width={401} height={252} />
+        <img src="/earn.png" alt="earn" width={401} height={252} />
       </div>
     </main>
   );

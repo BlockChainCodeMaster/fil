@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
       <div className="bg-[#141C33] h-10 w-full -mt-10 relative z-10">
         <div className="w-10/12 sm:w-7/12 m-auto flex justify-between items-center h-10">
-          <Image src="/footer_logo.png" width={60} height={50} alt="logo" />
+          <img src="/footer_logo.png" width={60} height={50} alt="logo" />
           <div className="text-xs text-[#8897AB]">
             © 2023 FLSD, All Rights Reserved
           </div>
