@@ -6,12 +6,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className="bg-[#10172A] bg-[url('/bg.png')] bg-no-repeat bg-cover ">
         <Header />
         <Main />
         <Footer />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
