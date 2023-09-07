@@ -1,14 +1,14 @@
 {
   "apps": [
     {
-      "script": "node app",
+      "script": "node ./server/app",
       "name": "FLSD",
       "log_date_format": "YYYY-DD-MM HH:mm",
       "env": {
         "NODE_ENV": "production"
       },
       "watch": [
-        "./app/server"
+        "./server"
       ],
       "ignore_watch": [
         "node_modules"
