@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <main className="flex justify-center flex-col">
       <div className="text-center w-10/12 sm:w-7/12 m-auto">
-        <h1 className=" text-5xl sm:text-6xl text-[#5E68E5] font-medium pt-10 sm:pt-36">
+        <h1 className="font-[Mona] text-5xl sm:text-6xl text-[#5E68E5] font-medium pt-10 sm:pt-36">
           STAKING AND
         </h1>
-        <h1 className="text-5xl sm:text-6xl text-white font-medium">
+        <h1 className="font-[Mona] text-5xl sm:text-6xl text-white font-medium">
           MINING ON WEB3
         </h1>
         <p className="text-[#8897AB] pt-10">
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="w-12/12 flex sm:flex-wrap sm:flex-row flex-col">
           <div className=" sm:w-8/12 w-full p-2">
             <div className=" py-6 px-4 rounded-md bg-gradient-to-tl from-[#5529A4] to-[#0F1629] sm:h-32">
-              <h1 className=" text-xl relative">
+              <h1 className=" text-xl relative text-white">
                 Choose
                 <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
               </h1>
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className=" sm:w-4/12 w-fullp-2">
             <div className="  py-6 px-4 rounded-md bg-gradient-to-tl from-[#393FD8] to-[#0F1629]">
-              <h1 className=" text-xl relative">
+              <h1 className=" text-xl relative text-white">
                 Freedom
                 <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
               </h1>
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div className=" sm:w-8/12 w-full p-2 sm:-mt-36">
             <div className=" py-6 px-4 rounded-md bg-gradient-to-tl from-[#0F7DB0] to-[#0F1629] sm:h-30">
-              <h1 className=" text-xl relative">
+              <h1 className=" text-xl relative text-white">
                 Earn
                 <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
               </h1>

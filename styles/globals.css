@@ -16,6 +16,21 @@
   }
 }
 
+@font-face {
+  font-family: Mona;
+  src: url(../public/fonts/Mona-Sans-BlackWide.otf) format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Product;
+  src: url(../public/fonts/Product-Sans-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+
 body {
+  font-family: Product;
   color: rgb(var(--foreground-rgb));
 }
