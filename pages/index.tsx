@@ -32,20 +32,35 @@ export default function Home() {
           How FLSD <i className=" not-italic text-[#5E68E5]">works?</i>
         </h1>
         <div className="w-12/12 flex sm:flex-wrap sm:flex-row flex-col">
-          <div className=" sm:w-8/12 w-full p-2">
-            <div className=" py-6 px-4 rounded-md bg-gradient-to-tl from-[#5529A4] to-[#0F1629] sm:h-32">
-              <h1 className=" text-xl relative text-white">
-                Choose
-                <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
-              </h1>
-              <p className="text-[#8897AB] pt-2 relative mt-4  text-sm">
-                Select your preferred staking ratio and deposit FIL as
-                collateral to mint the desired amount of $FLSD.
-              </p>
+          <div className="sm:w-8/12 w-full sm:p-2">
+            <div className="  w-full p-2">
+              <div className=" py-6 px-4 rounded-md bg-gradient-to-tl from-[#5529A4] to-[#0F1629] sm:h-36">
+                <h1 className=" text-xl relative text-white">
+                  Choose
+                  <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
+                </h1>
+                <p className="text-[#8897AB] pt-2 relative mt-4 text-sm">
+                  Select your preferred staking ratio and deposit FIL as
+                  collateral to mint the desired amount of $FLSD.
+                </p>
+              </div>
+            </div>
+            <div className="  w-full p-2">
+              <div className=" py-6 px-4 rounded-md bg-gradient-to-tl from-[#0F7DB0] to-[#0F1629] sm:h-36">
+                <h1 className=" text-xl relative text-white">
+                  Earn
+                  <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
+                </h1>
+                <p className="text-[#8897AB] pt-2 relative mt-4  text-sm">
+                  Earn $FLSD by actively maintaining loans or depositing funds
+                  into the stability pool within DeFi. Lock these $FLSD tokens
+                  to increase your daily bonus.
+                </p>
+              </div>
             </div>
           </div>
-          <div className=" sm:w-4/12 w-fullp-2">
-            <div className="  py-6 px-4 rounded-md bg-gradient-to-tl from-[#393FD8] to-[#0F1629]">
+          <div className=" sm:w-4/12 w-full p-2">
+            <div className="  py-6 px-4 rounded-md bg-gradient-to-tl from-[#393FD8] to-[#0F1629] sm:h-80">
               <h1 className=" text-xl relative text-white">
                 Freedom
                 <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
@@ -57,19 +72,6 @@ export default function Home() {
                 preserving liquidity. You can unlock your tokens at any time as
                 long as there is available liquidity in the locked pool, with no
                 time limit.
-              </p>
-            </div>
-          </div>
-          <div className=" sm:w-8/12 w-full p-2 sm:-mt-36">
-            <div className=" py-6 px-4 rounded-md bg-gradient-to-tl from-[#0F7DB0] to-[#0F1629] sm:h-30">
-              <h1 className=" text-xl relative text-white">
-                Earn
-                <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
-              </h1>
-              <p className="text-[#8897AB] pt-2 relative mt-4  text-sm">
-                Earn $FLSD by actively maintaining loans or depositing funds
-                into the stability pool within DeFi. Lock these $FLSD tokens to
-                increase your daily bonus.
               </p>
             </div>
           </div>
