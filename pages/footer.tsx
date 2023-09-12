@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="flex justify-center flex-col">
       <div className="w-full text-center sm:text-left sm:w-7/12 m-auto flex sm:flex-row flex-col pt-10">
         <div className="sm:w-6/12 w-full mr-24">
-          <h1 className="text-2xl text-white font-normal pt-10 pb-10">
-            Ready to be a{" "}
-            <i className=" not-italic text-[#5E68E5]">part of the future?</i>
+          <h1 className="text-2xl text-white font-normal pt-10 pb-5">
+            Ready to Shape the{" "}
+            <i className=" not-italic text-[#5E68E5]">Future of Web3?</i>
           </h1>
           <p className="text-[#8897AB] pt-2">Join FLSD Now!</p>
         </div>

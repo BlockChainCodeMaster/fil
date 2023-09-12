@@ -4,32 +4,31 @@ export default function Home() {
   return (
     <main className="flex justify-center flex-col">
       <div className="text-center w-10/12 sm:w-7/12 m-auto">
-        <h1 className="font-[Mona] text-5xl sm:text-6xl text-[#5E68E5] font-medium pt-10 sm:pt-36">
-          STAKING AND
+        <h1 className="font-[Mona] text-5xl sm:text-6xl uppercase text-[#5E68E5] font-medium pt-10 sm:pt-36">
+          Staking and Mining
         </h1>
-        <h1 className="font-[Mona] text-5xl sm:text-6xl text-white font-medium">
-          MINING ON WEB3
+        <h1 className="font-[Mona] text-5xl sm:text-6xl uppercase text-white font-medium">
+          in the Web3 Era with FLSD
         </h1>
         <p className="text-[#8897AB] pt-10">
-          FLSD is a leading liquidity FILECOIN staking tool builder. Its toolkit
-          fundamentally changes how storage providers earn block rewards from
-          mining.
+          As a trailblazer in Filecoin liquidity solutions, FLSD is redefining
+          how storage providers can amplify their mining rewards.
         </p>
         <button className="bg-[#5E68E5] px-5 py-2 rounded-md cursor-pointer my-10">
-          Download WhitePaper
+          Download Our WhitePaper
         </button>
         <h2 className=" text-2xl text-white font-medium pt-10">
-          Applications and services for the Filecoin ecosystem.
+          Seamless Services for the Filecoin Ecosystem
         </h2>
         <p className="text-[#8897AB] pt-2">
-          FLSD allows pledgers to easily and securely manage collateral, receive
-          liquid stTokens, and synchronize transactions with centralized
-          platforms.
+          With FLSD, manage your collateral effortlessly and securely. Get
+          instant, liquid stTokens and enjoy seamless transactions with
+          centralized/decentralized platforms.
         </p>
       </div>
       <div className="w-10/12 sm:w-7/12 m-auto">
         <h1 className="text-center text-2xl text-white font-normal pt-10 pb-10">
-          How FLSD <i className=" not-italic text-[#5E68E5]">works?</i>
+          How Does <i className=" not-italic text-[#5E68E5]">FLSD works?</i>
         </h1>
         <div className="w-12/12 flex sm:flex-wrap sm:flex-row flex-col">
           <div className="sm:w-8/12 w-full sm:p-2">
@@ -40,8 +39,9 @@ export default function Home() {
                   <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
                 </h1>
                 <p className="text-[#8897AB] pt-2 relative mt-4 text-sm">
-                  Select your preferred staking ratio and deposit FIL as
-                  collateral to mint the desired amount of $FLSD.
+                  Opt for a staking ratio that aligns with your financial goals.
+                  Deposit your Filecoin (FIL) to mint your desired quantity of
+                  $sFIL tokens.
                 </p>
               </div>
             </div>
@@ -52,9 +52,9 @@ export default function Home() {
                   <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
                 </h1>
                 <p className="text-[#8897AB] pt-2 relative mt-4  text-sm">
-                  Earn $FLSD by actively maintaining loans or depositing funds
-                  into the stability pool within DeFi. Lock these $FLSD tokens
-                  to increase your daily bonus.
+                  Elevate your $sFIL earnings by proactively staking your $sFIL
+                  tokens in the vault, or by participating in the stability pool
+                  within the decentralized finance (DeFi) ecosystem.
                 </p>
               </div>
             </div>
@@ -66,12 +66,10 @@ export default function Home() {
                 <i className="absolute left-0 -bottom-2 w-14 h-1 bg-[#5E68E5]"></i>
               </h1>
               <p className="text-[#8897AB] pt-2 relative mt-4 text-sm">
-                We utilize a rate model determined by market supply and demand.
-                Optimal utilization controls the amount of FIL available in the
-                staking pool, ensuring it is not entirely borrowed, thus
-                preserving liquidity. You can unlock your tokens at any time as
-                long as there is available liquidity in the locked pool, with no
-                time limit.
+                We&apos;re committed to enabling the withdrawal of FIL tokens.
+                We&apos;re actively working on a sustainable and reliable
+                mechanism to ensure you can access your assets anytime you
+                choose.
               </p>
             </div>
           </div>
@@ -80,13 +78,14 @@ export default function Home() {
       <div className="w-10/12 sm:w-7/12 m-auto flex flex-col sm:flex-row pt-10">
         <div className="w-full sm:w-6/12 mr-24">
           <h1 className="text-2xl text-white font-normal pt-10 pb-10">
-            Where do my earnings{" "}
-            <i className=" not-italic text-[#5E68E5]">come from?</i>
+            Where Do Your Earnings{" "}
+            <i className=" not-italic text-[#5E68E5]">Come From?</i>
           </h1>
           <p className="text-[#8897AB] pt-2">
-            Your earnings are generated from the Filecoin network, which borrows
-            FIL tokens from storage providers as collateral. A portion of the
-            Filecoin network&apos;s block rewards is allocated as your income.
+            Your rewards are sourced directly from the Filecoin network. The
+            network utilizes FIL tokens from storage providers like you as
+            collateral, and allocates a portion of its block rewards to be your
+            earnings.
           </p>
         </div>
         <img src="/earn.png" alt="earn" width={401} height={252} />
